@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 #header-p1 {
  display: flex;
 font-family: sans-serif;
@@ -152,4 +156,167 @@ padding-left: 24px;
 
 .fourth-image {
   width: 50.8%;
+}
+
+#columns-container {
+ display: flex;
+ background-color: lightgrey;
+}
+
+.start-learning-header {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  padding-top: 32px;
+  color: #303030;
+}
+
+
+.small-column-box {
+  padding-top: 32px;
+  heigth: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 72px;
+  font-family: sans-serif;
+}
+
+.sixth-image {
+ height: auto;
+}
+
+.c-c-t-1 {
+  color: #303030;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.c-c-t-2 {
+
+}
+
+.c-c-t-3 {
+
+}
+
+.box-text {
+  padding-left: 18px;
+  background-color: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.column-d {
+  padding-left: 32px;
+  margin-bottom: 32px;
+}
+
+.videopart-header {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  color: #303030;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.bottom-videopart-header {
+  font-family: sans-serif;
+  color: #303030;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.last-box {
+  display: flex;
+}
+
+.secondlast-smallbox {
+ display: flex;
+ margin-left: 300px;
+ background-color: lightgrey;
+ height: 40%;
+}
+
+.secondlast-image {
+ padding-right: 16px;
+ padding-left: 16px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+}
+
+.connection {
+  display: flex;
+}
+
+.videoandcontent {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.secondlast-smallbox-h {
+ font-size: 20px;
+ font-weight: bold;
+ color: #303030;
+}
+
+.second-last-smallbox-t {
+
+}
+
+.both {
+  display: flex;
+  flex-direction: column;
+  padding-right: 16px;
+  padding-top: 30px;
+}
+
+.rightcolumn-last {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-smallbox {
+  display: flex;
+  margin-left: 300px;
+  height: 40%;
+}
+
+.last-image {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.last-smallbox-h {
+  font-size: 20px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.last-smallbox-t {
+
+}
+
+.footer-text-both {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Terms-Privacy {
+ display: flex;
+ padding-left: 1400px;
+}
+
+footer {
+  border-top: thin solid black;
+  margin-top: 100px;
 }
